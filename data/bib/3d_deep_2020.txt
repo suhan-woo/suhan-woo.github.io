@@ -1,0 +1,8 @@
+@inproceedings{hernandez20203d,
+  title={3D-DEEP: 3-Dimensional Deep-learning based on elevation patterns for road scene interpretation},
+  author={Hernandez, {\'A}lvaro and Woo, Suhan and Corrales, H{\'e}ctor and Parra, Ignacio and Kim, Euntai and Llorca, David Fern{\'a}ndez and Sotelo, Miguel A},
+  booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
+  pages={892--898},
+  year={2020},
+  organization={IEEE}
+}

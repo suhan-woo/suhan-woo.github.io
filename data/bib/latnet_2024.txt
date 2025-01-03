@@ -1,0 +1,7 @@
+@article{woo2024location,
+  title={Location-Aware Transformer Network for Bird's Eye View Semantic Segmentation},
+  author={Woo, Suhan and Park, Minseong and Lee, Youngjo and Lee, Seoungwon and Kim, Euntai},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2024},
+  publisher={IEEE}
+}

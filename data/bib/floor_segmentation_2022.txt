@@ -1,0 +1,9 @@
+@article{hyun2022street,
+  title={Street floor segmentation for a wheeled mobile robot},
+  author={Hyun, Junhyuk and Woo, Suhan and Kim, Euntai},
+  journal={IEEE Access},
+  volume={10},
+  pages={127601--127609},
+  year={2022},
+  publisher={IEEE}
+}
