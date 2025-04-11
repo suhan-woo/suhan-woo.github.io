@@ -61,6 +61,55 @@
 
 
 
+
+          <tr onmouseout="hypevpr_stop()" onmouseover="hypevpr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hypevpr_image'>
+                  <img src='images/hypevpr/hypevpr_after.png' width="160">
+                </div>
+                <img src='images/hypevpr/hypevpr_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function latnet_start() {
+                  document.getElementById('hypevpr_image').style.opacity = "1";
+                }
+          
+                function latnet_stop() {
+                  document.getElementById('hypevpr_image').style.opacity = "0";
+                }
+                latnet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://dreamfusion3d.github.io/"> -->
+              <a href="https://ieeexplore.ieee.org/document/10729649">
+                <papertitle>HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition </papertitle>
+              </a>
+              <br>
+              <strong>Suhan Woo</strong>,
+              <a href="https://sungonce.github.io">Seongwon Lee</a>,
+              Jinwoo Jang,
+              <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
+              <br>
+              <em> Under Review </em>, 
+              <br>
+              <!-- <a href="https://sungmin-woo.github.io/prodepth/">Project Page</a> -->
+              /
+              <!-- <a href="https://ieeexplore.ieee.org/document/10729649">Project Page</a> -->
+              <!-- /
+              <a href="https://github.com/Sungmin-Woo/prodepth">Code</a> -->
+              /
+              <!-- <a href="data/bib/hypevpr_2025.txt">bib</a> -->
+              <p></p>
+              <p>
+              <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+              We propose a novel P2E VPR method that leverages the properties of hyperbolic space to address the matching problem between perspective views and equirectangular images. 
+              </p>
+            </td>
+          </tr>
+
+
 <tr onmouseout="latnet_stop()" onmouseover="latnet_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -159,6 +208,55 @@
 </tr>
 
 
+<tr onmouseout="rgbd_segmentation_stop()" onmouseover="rgbd_segmentation_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='rgbd_segmentation_image'>
+        <img src='images/rgbd_segmentation/rgbd_segmentation_after.png' width="160">
+      </div>
+      <img src='images/rgbd_segmentation/rgbd_segmentation_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function rgbd_segmentation_start() {
+        document.getElementById('rgbd_segmentation_image').style.opacity = "1";
+      }
+
+      function rgbd_segmentation_stop() {
+        document.getElementById('rgbd_segmentation_image').style.opacity = "0";
+      }
+      rgbd_segmentation_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9970739">
+      <papertitle>Real-Time RGB-D Semantic Segmentation via Efficient Depth Encoding and Fusion</papertitle>
+    </a>
+    <br>
+    <strong>Suhan Woo</strong>,
+    <a href="https://cilab.yonsei.ac.kr/cv/cv_junhyukhyun.pdf">Junhyuk Hyun</a>,
+    <a href="https://suhyeonlee.github.io/">Suhyeon Lee</a>,
+    <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>Under Review</em>
+    <br>
+    <!-- <a href="https://ieeexplore.ieee.org/abstract/document/9970739">Paper</a> -->
+    <!-- /
+    <a href="https://github.com/minseong-p/dnmap">Code</a> -->
+    /
+    <!-- <a href="data/bib/floor_segmentation_2022.txt">bib</a> -->
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+   This paper proposes a real-time RGB-based street floor segmentation method that identifies traversable and non-traversable curbs to support mobile robot navigation in urban environments.
+    </p>
+  </td>
+</tr>
+
+
 <tr onmouseout="floor_segmentation_stop()" onmouseover="floor_segmentation_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -184,7 +282,7 @@
       <papertitle>Street Floor Segmentation for a Wheeled Mobile Robot</papertitle>
     </a>
     <br>
-    <a href="https://https://github.com/minseong-p">Minseong Park*</a>,
+    <a href="https://cilab.yonsei.ac.kr/cv/cv_junhyukhyun.pdf">Junhyuk Hyun</a>,
     <strong>Suhan Woo</strong>,
     <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
     <br>
@@ -202,7 +300,44 @@
     <p></p>
     <p>
     <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
-    We propose a storage-efficient large-scale 3D mapping method that employs a discrete representation based on a decomposition strategy. 
+    This paper proposes a real-time RGB-based street floor segmentation method that identifies traversable and non-traversable curbs to support mobile robot navigation in urban environments. 
+    </p>
+  </td>
+</tr>
+
+<tr onmouseout="three_D_deep_stop()" onmouseover="three_D_deep_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='deep_learning_image'>
+        <img src='images/3d_deep/3d_deep_after.png' width="160">
+      </div>
+      <img src='images/3d_deep/3d_deep_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function three_D_deep_start() {
+        document.getElementById('deep_learning_image').style.opacity = "1";
+      }
+
+      function three_D_deep_stop() {
+        document.getElementById('deep_learning_image').style.opacity = "0";
+      }
+      three_D_deep_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://ieeexplore.ieee.org/abstract/document/9304601">
+      <papertitle>3D-DEEP: 3-Dimensional Deep-learning based on elevation patterns for road scene interpretation</papertitle>
+    </a>
+    <br>
+    A. Hernández, <strong>Suhan Woo</strong>, H. Corrales, I. Parra, <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>, D. F. Llorca
+    <br>
+    <em>2020 IEEE Intelligent Vehicles Symposium (IV)</em>
+    <br>
+    /
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9143117">PDF</a>
+    <p></p>
+    <p>
+      We propose 3D-DEEP, a deep-learning architecture designed for road scene understanding using elevation patterns derived from disparity-filtered and LiDAR-projected images.
     </p>
   </td>
 </tr>
