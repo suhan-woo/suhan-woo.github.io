@@ -1,8 +1,6 @@
-@inproceedings{woo2020false,
-  title={False Positive Removal for 3D Vehicle Detection With Penetrated Point Classifier},
-  author={Woo, Sungmin and Hwang, Sangwon and Kim, Woojin and Lee, Junhyeop and Lee, Dogyoon and Lee, Sangyoun},
-  booktitle={2020 IEEE International Conference on Image Processing (ICIP)},
-  pages={2721--2725},
-  year={2020},
-  organization={IEEE}
+@article{woo2025hypevpr,
+  title={HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition},
+  author={Woo, Suhan and Lee, Seongwon and Jang, Jinwoo and Kim, Euntai},
+  journal={arXiv preprint arXiv:2506.04764},
+  year={2025}
 }
