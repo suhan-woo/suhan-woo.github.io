@@ -1,0 +1,6 @@
+@article{jeon20252,
+  title={A $\^{} 2$ LC: Active and Automated Label Correction for Semantic Segmentation},
+  author={Jeon, Youjin and Cho, Kyusik and Woo, Suhan and Kim, Euntai},
+  journal={arXiv preprint arXiv:2506.11599},
+  year={2025}
+}

@@ -1,0 +1,6 @@
+@article{cho2025environmental,
+  title={Environmental Change Detection: Toward a Practical Task of Scene Change Detection},
+  author={Cho, Kyusik and Woo, Suhan and Seong, Hongje and Kim, Euntai},
+  journal={arXiv preprint arXiv:2506.11481},
+  year={2025}
+}
