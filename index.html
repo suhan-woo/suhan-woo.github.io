@@ -227,6 +227,47 @@
           </tr>
 
 
+          <tr onmouseout="rgbd_segmentation_stop()" onmouseover="rgbd_segmentation_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='rgbd_segmentation_image'>
+                  <img src='images/rgbd_segmentation/rgbd_segmentation_after.png' width="160">
+                </div>
+                <img src='images/rgbd_segmentation/rgbd_segmentation_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function rgbd_segmentation_start() {
+                  document.getElementById('rgbd_segmentation_image').style.opacity = "1";
+                }
+
+                function rgbd_segmentation_stop() {
+                  document.getElementById('rgbd_segmentation_image').style.opacity = "0";
+                }
+                rgbd_segmentation_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Real-Time RGB-D Semantic Segmentation via Efficient Depth Encoding and Fusion</papertitle>
+              </a>
+              <br>
+              <strong>Suhan Woo</strong>,
+              <a href="https://cilab.yonsei.ac.kr/cv/cv_junhyukhyun.pdf">Junhyuk Hyun</a>,
+              <a href="https://suhyeonlee.github.io/">Suhyeon Lee</a>,
+              <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
+              <br>
+              <em> International Journal of Control, Automation, and Systems </em>, vol. 23 no. 12 (2025) pp. 3649-3661 
+              (IF: 2.9 in JCR2024)
+              <br>
+
+              <p></p>
+              <p>
+
+            This paper proposes a real-time RGB-D semantic segmentation method that effectively encodes depth information and fuses it with RGB features to enhance segmentation performance while maintaining computational efficiency.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="bridgeta_stop()" onmouseover="bridgeta_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -319,45 +360,6 @@
 
 
 
-<tr onmouseout="rgbd_segmentation_stop()" onmouseover="rgbd_segmentation_start()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='rgbd_segmentation_image'>
-        <img src='images/rgbd_segmentation/rgbd_segmentation_after.png' width="160">
-      </div>
-      <img src='images/rgbd_segmentation/rgbd_segmentation_before.png' width="160">
-    </div>
-    <script type="text/javascript">
-      function rgbd_segmentation_start() {
-        document.getElementById('rgbd_segmentation_image').style.opacity = "1";
-      }
-
-      function rgbd_segmentation_stop() {
-        document.getElementById('rgbd_segmentation_image').style.opacity = "0";
-      }
-      rgbd_segmentation_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-      <papertitle>Real-Time RGB-D Semantic Segmentation via Efficient Depth Encoding and Fusion</papertitle>
-    </a>
-    <br>
-    <strong>Suhan Woo</strong>,
-    <a href="https://cilab.yonsei.ac.kr/cv/cv_junhyukhyun.pdf">Junhyuk Hyun</a>,
-    <a href="https://suhyeonlee.github.io/">Suhyeon Lee</a>,
-    <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
-    <br>
-    <em> International Journal of Control, Automation, and Systems </em>, ( Early Access ) 
-    (IF: 2.9 in JCR2024)
-    <br>
-
-    <p></p>
-    <p>
-
-   This paper proposes a real-time RGB-based street floor segmentation method that identifies traversable and non-traversable curbs to support mobile robot navigation in urban environments.
-    </p>
-  </td>
-</tr>
 
 
 <tr onmouseout="floor_segmentation_stop()" onmouseover="floor_segmentation_start()">
