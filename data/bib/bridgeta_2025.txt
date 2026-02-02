@@ -1,6 +1,6 @@
-@article{kim2025bridgeta,
+@InProceedings{kim2025bridgeta,
   title={BridgeTA: Bridging the Representation Gap in Knowledge Distillation via Teacher Assistant for Bird's Eye View Map Segmentation},
   author={Kim, Beomjun and Woo, Suhan and Heo, Sejong and Kim, Euntai},
-  journal={arXiv preprint arXiv:2508.09599},
-  year={2025}
+  booktitle = {IEEE International Conference on Robotics \& Automation (ICRA)},
+  year      = {2026}
 }
