@@ -1,6 +1,6 @@
-@article{woo2025hypevpr,
-  title={HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition},
-  author={Woo, Suhan and Lee, Seongwon and Jang, Jinwoo and Kim, Euntai},
-  journal={arXiv preprint arXiv:2506.04764},
-  year={2025}
+@inproceedings{woo2026hypevpr,
+  title     = {HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition},
+  author    = {Woo, Suhan and Lee, Seongwon and Jang, Jinwoo and Kim, Euntai},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2026}
 }
