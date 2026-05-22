@@ -131,10 +131,10 @@ span.highlight {
 }
 
 @media (max-width: 600px) {
-  tr {
+  .pub-table tr {
     display: block;
   }
-  td {
+  .pub-table td {
     display: block;
     width: 100% !important;
   }
