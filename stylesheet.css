@@ -131,6 +131,37 @@ span.highlight {
 }
 
 @media (max-width: 600px) {
+  .profile-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .profile-text {
+    display: contents;
+  }
+
+  .profile-top {
+    width: 58%;
+    order: 1;
+    padding: 2.5%;
+    box-sizing: border-box;
+  }
+
+  .profile-photo {
+    width: 38% !important;
+    max-width: 38% !important;
+    order: 2;
+    align-self: flex-start;
+  }
+
+  .profile-bottom {
+    width: 100%;
+    order: 3;
+    padding: 0 2.5% 2.5%;
+    box-sizing: border-box;
+  }
+
   .pub-table tr {
     display: block;
   }
