@@ -131,33 +131,40 @@ span.highlight {
 }
 
 @media (max-width: 600px) {
-  .profile-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+  .profile-table,
+  .profile-table tbody {
+    display: block;
+    width: 100%;
   }
 
-  .profile-text {
+  .profile-tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-text-td {
     display: contents;
   }
 
   .profile-top {
-    width: 58%;
     order: 1;
+    width: 55%;
     padding: 2.5%;
     box-sizing: border-box;
   }
 
-  .profile-photo {
-    width: 38% !important;
-    max-width: 38% !important;
+  .profile-photo-td {
     order: 2;
+    width: 40% !important;
+    max-width: 40% !important;
+    padding: 2.5% !important;
+    box-sizing: border-box;
     align-self: flex-start;
   }
 
   .profile-bottom {
-    width: 100%;
     order: 3;
+    width: 100%;
     padding: 0 2.5% 2.5%;
     box-sizing: border-box;
   }
