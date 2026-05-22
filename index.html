@@ -146,6 +146,49 @@
             </td>
           </tr>
 
+
+
+          <tr onmouseout="ecd_stop()" onmouseover="ecd_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ecd_image'>
+                  <img src='images/ecd/ecd_after.png' width="160">
+                </div>
+                <img src='images/ecd/ecd_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ecd_start() {
+                  document.getElementById('ecd_image').style.opacity = "1";
+                }
+
+                function ecd_stop() {
+                  document.getElementById('ecd_image').style.opacity = "0";
+                }
+                ecd_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Environmental Change Detection for Real-World Change Analysis </papertitle>
+              </a>
+              <br>
+              Kyusik Cho,
+              <strong>Suhan Woo</strong>,
+              <a href="https://hongje.github.io">Hongje Seong</a>,
+              <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
+              <br>
+              <em> Under Review </em>
+              <br>
+              <a href="https://arxiv.org/abs/2506.11481">Paper</a>
+                  /
+              <a href="data/bib/ecd_2025.txt">bib</a>
+              
+              <p></p>
+              <p>
+              We propose a novel Environmental Change Detection (ECD) framework that handles misaligned and uncurated reference images by aggregating multiple reference candidates and rich semantic cues, achieving robust and state-of-the-art performance on standard benchmarks.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="hypevpr_stop()" onmouseover="hypevpr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -195,47 +238,6 @@
  
 
 
-
-          <tr onmouseout="ecd_stop()" onmouseover="ecd_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ecd_image'>
-                  <img src='images/ecd/ecd_after.png' width="160">
-                </div>
-                <img src='images/ecd/ecd_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function ecd_start() {
-                  document.getElementById('ecd_image').style.opacity = "1";
-                }
-
-                function ecd_stop() {
-                  document.getElementById('ecd_image').style.opacity = "0";
-                }
-                ecd_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Environmental Change Detection: Toward a Practical Task of Scene Change Detection </papertitle>
-              </a>
-              <br>
-              Kyusik Cho,
-              <strong>Suhan Woo</strong>,
-              <a href="https://hongje.github.io">Hongje Seong</a>,
-              <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
-              <br>
-              <em> Under Review </em>
-              <br>
-              <a href="https://arxiv.org/abs/2506.11481">Paper</a>
-                  /
-              <a href="data/bib/ecd_2025.txt">bib</a>
-              
-              <p></p>
-              <p>
-              We propose a novel Environmental Change Detection (ECD) framework that handles misaligned and uncurated reference images by aggregating multiple reference candidates and rich semantic cues, achieving robust and state-of-the-art performance on standard benchmarks.
-              </p>
-            </td>
-          </tr>
 
 
 
