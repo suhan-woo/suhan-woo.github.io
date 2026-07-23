@@ -1,0 +1,10 @@
+@article{woo2025real,
+  title={Real-time RGB-D Semantic Segmentation With Scale-invariant Depth Encoding and Noise-robust Fusion},
+  author={Woo, Suhan and Hyun, Junhyuk and Lee, Suhyeon and Kim, Euntai},
+  journal={International Journal of Control, Automation and Systems},
+  volume={23},
+  number={12},
+  pages={3649--3661},
+  year={2025},
+  publisher={Springer}
+}
