@@ -59,8 +59,53 @@
         <table class="pub-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-
           <p style="font-size:16px; color:#666; margin:0; margin-top:0px; margin-left:20px; font-weight:600;"> 👇Hover over images</p>
+          <tr onmouseout="ccs_stop()" onmouseover="ccs_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ccs_image'>
+                  <img src='images/ccs/after.png' width="160">
+                </div>
+                <img src='images/ccs/before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ccs_start() {
+                  document.getElementById('ccs_image').style.opacity = "1";
+                }
+
+                function ccs_stop() {
+                  document.getElementById('ccs_image').style.opacity = "0";
+                }
+                image_edit_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Cautious Context Steering for Language Model Personalization</papertitle>
+              </a>
+              <br>
+              Gihoon Kim*,
+              Jeyoung Lee*,
+              <strong>Suhan Woo</strong>,
+              Sekwon Oh,
+              Minsu Jeon, 
+              Hyounsoo Han,
+              <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
+              (* Equal contribution)
+              <br>
+              <em> Under Review </em>
+              <br>
+              <a href="https://arxiv.org/abs/2608.05813">Paper</a>
+                  <!-- /
+              <a href="data/bib/ecd_2025.txt">bib</a> -->
+              
+              <p></p>
+              <p>
+              We propose a novel LM personalization method that uses a lightweight token-wise adapter to determine when and how strongly to incorporate user context while preserving the base LM when context is unhelpful, achieving robust generalization to unseen users and domains with substantially lower inference cost.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="p2r_stop()" onmouseover="p2r_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
