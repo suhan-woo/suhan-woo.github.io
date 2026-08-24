@@ -60,6 +60,52 @@
 
 
           <p style="font-size:16px; color:#666; margin:0; margin-top:0px; margin-left:20px; font-weight:600;"> 👇Hover over images</p>
+
+
+          <tr onmouseout="dnloam_stop()" onmouseover="dnloam_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dnloam_image'>
+                  <img src='images/dnloam/dnloam_after.png' width="160">
+                </div>
+                <img src='images/dnloam/dnloam_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dnloam_start() {
+                  document.getElementById('dnloam_image').style.opacity = "1";
+                }
+
+                function dnloam_stop() {
+                  document.getElementById('dnloam_image').style.opacity = "0";
+                }
+                dnloam_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Decomposition of Neural Discrete Representations for Efficient LiDAR Odometry and Mapping </papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/minseong-p">Minseong Park</a>,
+              <strong>Suhan Woo</strong>,
+              <a href="https://cilab.yonsei.ac.kr/">Euntai Kim</a>
+              <br>
+              <em> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Accepted.</em>
+              <br>
+              (IF: 20.4 in JCR2025)
+              <br>
+              <!-- <a href="https://arxiv.org/abs/2506.11481">Paper</a>
+                  /
+              <a href="data/bib/ecd_2025.txt">bib</a> -->
+
+
+              <p></p>
+              <p>
+              We propose a novel large-scale LiDAR mapping framework that learns decomposition-based neural discrete representations for memory-efficient 3D mapping, while enabling fast decoder-free odometry through SDF lookup, achieving high mapping accuracy with substantially reduced storage and computation.
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="ccs_stop()" onmouseover="ccs_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -130,7 +176,7 @@
               </a>
               <br>
               Jeyoung Lee,
-              Minseong Park,
+              <a href="https://github.com/minseong-p">Minseong Park</a>,
               <strong>Suhan Woo</strong>,
               Gihoon Kim,
               Jangwon Oh,
@@ -622,7 +668,7 @@
             This website's source code is borrowed from <a href="https://github.com/jonbarron/jonbarron_website">jonbarron's website</a>.
           </p>
           <p style="text-align:right;font-size:small;">
-            Last updated June 2026.
+            Last updated August 2026.
           </p>
         </td>
       </tr>
